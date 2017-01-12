@@ -1,3 +1,5 @@
+$booking-com-logo: "../images/partners/booking-com-logo.png";
+
 #partner{
 	padding:0;
 	margin: -8px  0px  0px -8px;
@@ -21,7 +23,7 @@
 }
 
 #booking-com{
-	background-image: url("../images/partners/booking-com-logo.png");
+	background-image: url($booking-com-logo);
 }
 
 #airbnb{

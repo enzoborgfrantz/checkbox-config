@@ -1,0 +1,154 @@
+#partner{
+	padding:0;
+	margin: -8px  0px  0px -8px;
+  margin-top:20px;
+	//margin-top:20vh;
+}
+
+.partner{
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	height:10vh;
+	width:20vw;
+	margin-bottom:25px;
+	margin-left: 40vw;
+	display:block;
+	transition: opacity 0.40s ease-in;
+}
+
+.partner:hover{
+	opacity:.70;
+}
+
+#booking-com{
+	background-image: url("../../images/partners/booking-com-logo.png");
+}
+
+#airbnb{
+	background-image: url("../../images/partners/airbnb-logo.png");
+}
+
+#hotels-com{
+	background-image: url("../../images/partners/hotels-com-logo.png");
+}
+
+#viator{
+	background-image: url("../../images/partners/viator-logo.png");
+}
+
+#browser{
+	//visibility:hidden;
+	margin-left:37.5vw;
+	width: 25vw;
+	padding-left:1px;
+}
+
+.browser{
+	list-style:none;
+	display:inline-block;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	height:5vw;
+	width:5vw;
+	padding:5px;
+	box-sizing:border-box;
+	border:5px solid white;
+	transition: border ease-in-out, opacity 0.25s ease-in-out;
+	}
+
+.browser:hover{
+	border:10px solid white;
+	opacity: .8;
+}
+
+#chrome{
+	background-image: url("../../images/browsers/chrome-icon.png");
+}
+
+#edge{
+	background-image: url("../../images/browsers/edge-icon.png");
+}
+
+#firefox{
+	background-image: url("../../images/browsers/firefox-icon.png");
+}
+
+#safari{
+	background-image: url("../../images/browsers/safari-icon.png");
+}
+
+#opera{
+	background-image: url("../../images/browsers/opera-icon.png");
+}
+
+#flag{
+  width: 50vw;
+  margin-left: 25vw;
+  text-align: center;
+}
+
+.flag{
+  list-style:none;
+  display:inline-block;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:50% 0;
+  height:7vw;
+  width:10vw;
+  box-sizing:border-box;
+  border:5px solid white;
+}
+
+#com{
+  background-image: url("../../images/flags/com-flag.png")
+}
+
+#de{
+  background-image: url("../../images/flags/de-flag.png")
+}
+
+#es{
+  background-image: url("../../images/flags/es-flag.png")
+}
+
+#fr{
+  background-image: url("../../images/flags/fr-flag.png")
+}
+
+#it{
+  background-image: url("../../images/flags/it-flag.png")
+}
+
+#nl{
+  background-image: url("../../images/flags/nl-flag.png")
+}
+
+#pl{
+  background-image: url("../../images/flags/pl-flag.png")
+}
+
+#cn{
+  background-image: url("../../images/flags/cn-flag.png")
+}
+
+#sk{
+  background-image: url("../../images/flags/sk-flag.png")
+}
+
+#cz{
+  background-image: url("../../images/flags/cz-flag.png")
+}
+
+#ru{
+  background-image: url("../../images/flags/ru-flag.png")
+}
+
+#pt{
+  background-image: url("../../images/flags/pt-flag.png")
+}
+
+#com{
+  background-image: url("../../images/flags/com-flag.png")
+}
