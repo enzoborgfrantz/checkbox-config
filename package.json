@@ -1,0 +1,19 @@
+{
+  "name": "checkbox-config",
+  "version": "1.0.0",
+  "description": "Frontend dashboard for checkbox configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzoborgfrantz/checkbox-config.git"
+  },
+  "author": "Enzo Borg Frantz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzoborgfrantz/checkbox-config/issues"
+  },
+  "homepage": "https://github.com/enzoborgfrantz/checkbox-config#readme"
+}
