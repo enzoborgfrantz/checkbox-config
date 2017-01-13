@@ -1,8 +1,8 @@
 #partner {
+    display: none;
     padding: 0;
     margin: -8px 0px 0px -8px;
     margin-top: 20px;
-    //margin-top:20vh;
 }
 
 .partner {
@@ -18,7 +18,7 @@
 }
 
 .partner:hover {
-    opacity: .70;
+    opacity: .7;
 }
 
 #booking-com {
@@ -38,6 +38,7 @@
 }
 
 #browser {
+    display: none;
     margin-left: 37.5vw;
     width: 25vw;
     padding-left: 1px;
@@ -83,9 +84,15 @@
 }
 
 #flag {
-    width: 50vw;
-    margin-left: 25vw;
     text-align: center;
+}
+
+#flag:hover > .flag{
+	opacity: .5;
+}
+
+#flag:hover > .flag:hover{
+	opacity: 1;
 }
 
 .flag {
@@ -94,10 +101,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 0;
-    height: 7vw;
-    width: 10vw;
+    height: 5vw;
+    width: 7.5vw;
     box-sizing: border-box;
-    border: 5px solid white;
+    border: 5px solid transparent;
 }
 
 #com {
