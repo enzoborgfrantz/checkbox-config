@@ -26,5 +26,8 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
   }
 }
