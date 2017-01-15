@@ -1,9 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Router = require('react-router').Router;
 var routes = require('./config/routes');
+import {Router, Route, browserHistory} from 'react-router';
 
 ReactDOM.render(
-  <Router>{routes}</Router>,
-  document.getElementById('root')
-)
+    <Router history={browserHistory}>{routes}</Router>, document.getElementById('root'))

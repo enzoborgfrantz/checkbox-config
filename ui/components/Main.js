@@ -5,7 +5,7 @@ var Main = React.createClass({
         return (
             <div>
                 <ul>
-                    <li>Pick a Domain PLEASE!!</li>
+                    <li>Pick a Domain PLEASE!! ok</li>
                 </ul>
                 <div className="content">
                     {this.props.children}

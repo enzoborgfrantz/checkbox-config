@@ -1,10 +1,10 @@
-var React = require('react');
-var Main = require('../components/Main.js');
-var Router = require('react-router');
-var Route = Router.Route;
+import React from 'react';
+import Main from '../components/Main.js';
+import Home from '../components/Home.js';
+import {Router, Route, IndexRedirect} from 'react-router'
+var IndexRoute = Router.IndexRoute;
 
 module.exports = (
-  <Route path="/" component={Main}>
-
-  </Route>
+        <Route path="/" component={Main}>
+        </Route>
 );
