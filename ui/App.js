@@ -1,7 +1,10 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var routes = require('./config/routes');
-import {Router, Route, browserHistory} from 'react-router';
+import React from 'react';
+import {render} from 'react-dom'
+import {browserHistory, Router, Route, IndexRoute} from 'react-router'
+import routes from './config/routes.js'
 
-ReactDOM.render(
-    <Router history={browserHistory}>{routes}</Router>, document.getElementById('root'))
+render((
+    <Router history={browserHistory}>
+        {routes}
+    </Router>
+), document.getElementById('root'))

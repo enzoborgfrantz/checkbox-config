@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "http-server",
+    "start": "webpack-dev-server",
     "scss-compile": "node-sass -rw assets/styles/scss -o assets/styles/css"
   },
   "repository": {
