@@ -83,6 +83,10 @@
     background-image: url("../../images/browsers/opera-icon.png");
 }
 
+body{
+  background-color: #fff;
+}
+
 #flag {
     text-align: center;
 }
