@@ -5,24 +5,31 @@ var BUILD_DIR = path.resolve(__dirname, 'build');
 var APP_DIR = path.resolve(__dirname, '');
 
 var config = {
-  entry: APP_DIR + '/ui/App.js',
-  output: {
-    path: BUILD_DIR,
-    filename: 'bundle.js'
-  },
-  module : {
-    loaders : [
-      {
-        test : /\.jsx?/,
-        exclude: /(node_modules|browser_components)/,
-        include : APP_DIR,
-        loader : 'babel',
-        query: {
-          presets:['react', 'es2015']
-        }
-      }
-    ]
-  }
+    entry: APP_DIR + '/ui/App.js',
+    output: {
+        path: BUILD_DIR,
+        filename: 'bundle.js',
+        publicPath: './build/'
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.jsx?/,
+                exclude: /(node_modules|browser_components)/,
+                include: APP_DIR,
+                loader: 'babel',
+                query: {
+                    presets: ['react', 'es2015']
+                }
+            }, {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+            }, {
+                test: /\.png/,
+                loader: "file-loader"
+            }
+        ]
+    }
 };
 
 module.exports = config;
