@@ -7,9 +7,9 @@ var APP_DIR = path.resolve(__dirname, '');
 var config = {
     entry: APP_DIR + '/ui/App.js',
     output: {
-        path: BUILD_DIR,
-        filename: 'bundle.js',
-        publicPath: './build/'
+        path: path.resolve(__dirname, 'build/'),
+        publicPath: '/build/',
+        filename: 'bundle.js'
     },
     module: {
         loaders: [
