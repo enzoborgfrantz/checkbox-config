@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import DomainPicker from './DomainPicker/DomainPicker'
+import DomainPicker from './DomainPicker/DomainPicker';
+import AdConfigurationContainer from './AdConfiguration/AdConfigurationContainer';
+import styles from '../styles/main.scss';
 
 class Main extends Component {
     render() {
         return (
-            <div>
-                <DomainPicker />
-                <h1>okok</h1>
-                hello yosswhuuuimmmzzz</div>
+            <div className="mainContainer">
+                <DomainPicker/>
+            </div>
         );
     }
 }

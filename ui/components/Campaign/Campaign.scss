@@ -1,0 +1,74 @@
+@import '../../styles/cssVariables';
+@import '../../styles/main';
+
+.configuration-scroll{
+    overflow-y: auto;
+    height:15.5vh;
+}
+
+.configuration-container{
+  display: inline-block;
+  width:50.5vw;
+  box-shadow: $shadow;
+  height:21.5vh;
+  float:right;
+  margin:10px 1vw 0 0;
+  border-radius: 2px 2px 0 0;
+  overflow-y: hidden;
+}
+
+.checkbox-wrapper {
+    padding-right: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    transition: all 1s ease-in;
+    span {
+        margin: 0;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    input[type=checkbox] {
+        @include no-appearance();
+        width: 18px;
+        height: 18px;
+        border: 2px solid $dark-gray;
+        border-radius: 5px;
+        outline: none;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked {
+        background-color: rgba(0, 0, 0, 0.4);
+        border:2px solid rgba(0, 0, 0, 0.4);
+    }
+}
+
+.save-btn {
+    @include blue-button();
+    width: 20vw;
+    margin: 0 0 5px 1vw;
+    height: 30px;
+}
+
+.campaign-item {
+    color: $dark-gray;
+    width:74vw;
+    display: block;
+    box-shadow: $shadow;
+    border-radius: 5px;
+    padding-bottom: 1px;
+    margin: 0 0 10px 5px;
+}
+
+.campaign-info {
+    width: 20vw;
+    text-align: right;
+    border: 1px solid $light-gray;
+    margin:10px .5vw 10px 1vw;
+    box-shadow: $shadow;
+    border-radius: 2px 2px 0 0;
+    padding-bottom: 5px;
+    display:inline-block;
+}

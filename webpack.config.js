@@ -27,6 +27,9 @@ var config = {
             }, {
                 test: /\.png/,
                 loader: "file-loader"
+            }, {
+                test: /\.scss$/,
+                loader: "style-loader!css-loader!sass-loader!"
             }
         ]
     }

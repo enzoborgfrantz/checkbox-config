@@ -1,0 +1,59 @@
+@import 'cssVariables';
+
+.mainContainer{
+		margin-top:15px;
+		margin-left:1vw;
+}
+
+body{
+  background-color: $off-white;
+	font-family: $font;
+	margin:0;
+  padding:0;
+}
+
+@mixin no-appearance(){
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+@mixin blue-button(){
+	background-color: $light-blue;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	box-shadow: $shadow;
+	transition: background-color 0.15s ease-in;
+	&:hover {
+			background-color: $light-blue-hover;
+	}
+}
+
+.label-header{
+	background-color: $light-gray;
+	color: $dark-gray;
+	display:block;
+	border-radius: 2px 0 0 2px;
+	line-height: 6vh;
+	height:6vh;
+	font-size:18px;
+}
+
+.label-header-left{
+	@extend .label-header;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.label-header-right{
+	@extend .label-header;
+	padding-right: 10px;
+}
+
+
+
+
+input[type=button]{
+	@include no-appearance();
+}

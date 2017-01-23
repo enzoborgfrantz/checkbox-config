@@ -1,0 +1,94 @@
+@import '../../styles/cssVariables';
+@import '../../styles/main';
+
+.domainPicker{
+  width:18vw;
+  display:inline-block;
+}
+
+#flag {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0px;
+    padding-bottom:10px;
+    border-radius: 2px 2px 0 0;
+    box-shadow: $shadow;
+}
+
+.flag {
+    display: block;
+    height: 6vh;
+    background-size: contain;
+    background-position: 92% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    line-height: 6vh;
+    font-size: 16px;
+    list-style: none;
+    transition: background-color 0.1s ease-in, opacity 0.1s ease-in;
+    margin-top: 3px ;
+    border: none;
+    opacity: .75;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 15px;
+    color:rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    &:hover {
+        background-color: $light-gray;
+        opacity: 1;
+    }
+}
+
+#de {
+    background-image: url("#{$de-flag}");
+}
+
+#es {
+    background-image: url("#{$es-flag}");
+}
+
+#fr {
+    background-image: url("#{$fr-flag}");
+}
+
+#it {
+    background-image: url("#{$it-flag}");
+}
+
+#nl {
+    background-image: url("#{$nl-flag}");
+}
+
+#pl {
+    background-image: url("#{$pl-flag}");
+}
+
+#cn {
+    background-image: url("#{$cn-flag}");
+}
+
+#sk {
+    background-image: url("#{$sk-flag}");
+}
+
+#cz {
+    background-image: url("#{$cz-flag}");
+}
+
+#ru {
+    background-image: url("#{$ru-flag}");
+}
+
+#pt {
+    background-image: url("#{$pt-flag}");
+}
+
+#com {
+    background-image: url("#{$com-flag}");
+}
+
+#all {
+    background-image: url("#{$all-flag}");
+}

@@ -1,0 +1,38 @@
+@import '../../styles/cssVariables';
+@import '../../styles/main';
+
+.campaign-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 67vh;
+    margin-top: 14px;
+    border: none;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+
+.adConfigContainer {
+    width: 76.5vw;
+    margin-left: 20vw;
+    .domain-label {
+        display: inline-block;
+        color: $dark-gray;
+        width: 100%;
+        text-transform: capitalize;
+        font-size: 65px;
+        border-bottom: 1px solid #eee;
+        padding-top: 10px;
+    }
+}
+
+.addConfigButton {
+    margin-top: 15px;
+    width: 75vw;
+    height: 7vh;
+    @include blue-button();
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 5vw;
+    background:$light-blue url("../../assets/icons/add-icon.png") 1.5vw center / 4vh 4vh no-repeat;
+}
