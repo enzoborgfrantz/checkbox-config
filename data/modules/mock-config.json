@@ -1,0 +1,1711 @@
+{
+    "payload": [{
+            "id": "advertisement_configuration_booking.com_co.uk",
+            "campaign": "BOOKINGCOM",
+            "domain": "co.uk",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.uk",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_es",
+            "campaign": "BOOKINGCOM",
+            "domain": "es",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "es",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "es",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "es",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "es",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com.ar",
+            "campaign": "AIRBNB",
+            "domain": "com.ar",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com.ar",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com.ar",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_it",
+            "campaign": "AIRBNB",
+            "domain": "it",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "it",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "it",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_cl",
+            "campaign": "BOOKINGCOM",
+            "domain": "cl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "cl",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com-cn",
+            "campaign": "AIRBNB",
+            "domain": "com-cn",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com-cn",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com-cn",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_lu",
+            "campaign": "AIRBNB",
+            "domain": "lu",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "lu",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "lu",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "lu",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "lu",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_be",
+            "campaign": "AIRBNB",
+            "domain": "be",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "be",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_co.za",
+            "campaign": "AIRBNB",
+            "domain": "co.za",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "co.za",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "co.za",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com.ar",
+            "campaign": "BOOKINGCOM",
+            "domain": "com.ar",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.ar",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_fr",
+            "campaign": "BOOKINGCOM",
+            "domain": "fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "fr",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_co.ve",
+            "campaign": "BOOKINGCOM",
+            "domain": "co.ve",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.ve",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_ie",
+            "campaign": "AIRBNB",
+            "domain": "ie",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "ie",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "ie",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_ch-it",
+            "campaign": "AIRBNB",
+            "domain": "ch-it",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "ch-it",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "ch-it",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_nl",
+            "campaign": "AIRBNB",
+            "domain": "nl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "nl",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "nl",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "nl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "nl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_pl",
+            "campaign": "BOOKINGCOM",
+            "domain": "pl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "pl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "pl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "pl",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "pl",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_fr",
+            "campaign": "AIRBNB",
+            "domain": "fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_be-fr",
+            "campaign": "BOOKINGCOM",
+            "domain": "be-fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be-fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be-fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com-au",
+            "campaign": "BOOKINGCOM",
+            "domain": "com-au",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-au",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-au",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-au",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-au",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com.co",
+            "campaign": "BOOKINGCOM",
+            "domain": "com.co",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.co",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_ch-it",
+            "campaign": "BOOKINGCOM",
+            "domain": "ch-it",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-it",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-it",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-it",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-it",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com-nz",
+            "campaign": "BOOKINGCOM",
+            "domain": "com-nz",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-nz",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-nz",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-nz",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-nz",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com.pe",
+            "campaign": "AIRBNB",
+            "domain": "com.pe",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com.pe",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com.pe",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com-cn",
+            "campaign": "BOOKINGCOM",
+            "domain": "com-cn",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-cn",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-cn",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-cn",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-cn",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_de",
+            "campaign": "BOOKINGCOM",
+            "domain": "de",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "de",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com-au",
+            "campaign": "AIRBNB",
+            "domain": "com-au",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com-au",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com-au",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com.co",
+            "campaign": "AIRBNB",
+            "domain": "com.co",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com.co",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com.co",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_ch",
+            "campaign": "AIRBNB",
+            "domain": "ch",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "ch",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "ch",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_ch-fr",
+            "campaign": "AIRBNB",
+            "domain": "ch-fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "ch-fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "ch-fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com",
+            "campaign": "BOOKINGCOM",
+            "domain": "com",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com.pe",
+            "campaign": "BOOKINGCOM",
+            "domain": "com.pe",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.pe",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com-nz",
+            "campaign": "AIRBNB",
+            "domain": "com-nz",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com-nz",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com-nz",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_de",
+            "campaign": "AIRBNB",
+            "domain": "de",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "de",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "de",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com-qc",
+            "campaign": "BOOKINGCOM",
+            "domain": "com-qc",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-qc",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-qc",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-qc",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-qc",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_co.za",
+            "campaign": "BOOKINGCOM",
+            "domain": "co.za",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "co.za",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com",
+            "campaign": "AIRBNB",
+            "domain": "com",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_es",
+            "campaign": "AIRBNB",
+            "domain": "es",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "es",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "es",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "es",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "es",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_it",
+            "campaign": "BOOKINGCOM",
+            "domain": "it",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "it",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_pl",
+            "campaign": "AIRBNB",
+            "domain": "pl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "pl",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "pl",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "pl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "pl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_lu",
+            "campaign": "BOOKINGCOM",
+            "domain": "lu",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "lu",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "lu",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "lu",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "lu",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_cl",
+            "campaign": "AIRBNB",
+            "domain": "cl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "cl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "cl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com-qc",
+            "campaign": "AIRBNB",
+            "domain": "com-qc",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com-qc",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com-qc",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_co.ve",
+            "campaign": "AIRBNB",
+            "domain": "co.ve",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "co.ve",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "co.ve",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_ie",
+            "campaign": "BOOKINGCOM",
+            "domain": "ie",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ie",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com-ca",
+            "campaign": "BOOKINGCOM",
+            "domain": "com-ca",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-ca",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-ca",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-ca",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com-ca",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_be-fr",
+            "campaign": "AIRBNB",
+            "domain": "be-fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "be-fr",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be-fr",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be-fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "be-fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_ch",
+            "campaign": "BOOKINGCOM",
+            "domain": "ch",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_ch-fr",
+            "campaign": "BOOKINGCOM",
+            "domain": "ch-fr",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-fr",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-fr",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-fr",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "ch-fr",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_co.uk",
+            "campaign": "AIRBNB",
+            "domain": "co.uk",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "co.uk",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "co.uk",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com.uy",
+            "campaign": "AIRBNB",
+            "domain": "com.uy",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com.uy",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com.uy",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_nl",
+            "campaign": "BOOKINGCOM",
+            "domain": "nl",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "nl",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "nl",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "nl",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "nl",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_be",
+            "campaign": "BOOKINGCOM",
+            "domain": "be",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "be",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_airbnb_com-ca",
+            "campaign": "AIRBNB",
+            "domain": "com-ca",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "AIRBNB",
+                    "domain": "com-ca",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "AIRBNB",
+                    "domain": "com-ca",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": false
+                }
+            ]
+        },
+        {
+            "id": "advertisement_configuration_booking.com_com.uy",
+            "campaign": "BOOKINGCOM",
+            "domain": "com.uy",
+            "enabled": true,
+            "checked": true,
+            "configurations": [{
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "location": "DESKTOP_HOMEPAGE",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "location": "DESKTOP_LEAN_SEARCH_BAR",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "location": "MOBILE_HOMEPAGE",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "location": "MOBILE_LEAN_SEARCH_BAR",
+                    "status": true
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "browserName": "Google Search App",
+                    "minVersion": "1",
+                    "maxVersion": "100",
+                    "status": false
+                },
+                {
+                    "campaign": "BOOKINGCOM",
+                    "domain": "com.uy",
+                    "browserName": "Facebook",
+                    "minVersion": "1",
+                    "maxVersion": "200",
+                    "status": false
+                }
+            ]
+        }
+    ]
+}
