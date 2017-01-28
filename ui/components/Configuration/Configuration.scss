@@ -10,10 +10,14 @@
     border-radius:5px;
     margin:5px;
     opacity:.8;
+    box-shadow: $shadow;
     label {
         vertical-align: middle;
         color: rgba(0, 0, 0, 0.6);
-        padding-left: 10px
+        padding-left: 10px;
+        //font-weight:lighter;
+        font-size:16px;
+
     }
 
     input[type="button"] {
@@ -29,5 +33,13 @@
     }
     &:hover{
       opacity:1;
+    }
+
+    &.enabled{
+      background-color: $light-green;
+    }
+
+    &.disabled{
+      background-color: $light-red;
     }
 }

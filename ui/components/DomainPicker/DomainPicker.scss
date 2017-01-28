@@ -4,6 +4,8 @@
 .domainPicker{
   width:18vw;
   display:inline-block;
+  box-shadow: $shadow;
+  float:left;
 }
 
 #flag {
@@ -13,7 +15,8 @@
     margin:0px;
     padding-bottom:10px;
     border-radius: 2px 2px 0 0;
-    box-shadow: $shadow;
+    max-height:88vh;
+    overflow-y: scroll;
 }
 
 .flag {
@@ -29,7 +32,7 @@
     transition: background-color 0.1s ease-in, opacity 0.1s ease-in;
     margin-top: 3px ;
     border: none;
-    opacity: .75;
+    opacity: .6;
     text-transform: capitalize;
     text-align: left;
     padding-left: 15px;
@@ -39,6 +42,11 @@
         background-color: $light-gray;
         opacity: 1;
     }
+}
+
+.flag-selected{
+  background-color: $light-gray;
+  opacity: 1;
 }
 
 #de {
@@ -87,8 +95,4 @@
 
 #com {
     background-image: url("#{$com-flag}");
-}
-
-#all {
-    background-image: url("#{$all-flag}");
 }

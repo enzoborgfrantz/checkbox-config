@@ -1,38 +1,45 @@
 import React, {Component} from 'react';
 import styles from './Campaign.scss';
 import Configuration from '../Configuration/Configuration.js';
+import partnerList from '../../../data/static-data/partners.json';
 
 class Campaign extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            panelVisible: true
+        }
+    }
+
+    hidePanel() {
+        this.setState({
+            panelVisible: !this.state.panelVisible
+        });
+    }
+
+    getConfigurations() {}
+
     render() {
         return (
             <div className="campaign-item">
-                <label className="label-header-left">Booking.com</label>
-                <div className="campaign-info">
-                    <label className="label-header-right">Status</label>
-                    <div className="checkbox-wrapper">
-                        <span>Enabled</span>
-                        <input type="checkbox"/>
-                    </div>
-                    <div className="checkbox-wrapper">
-                        <span>Checked</span>
-                        <input className="check" type="checkbox" value="Checked"/>
+                <label className="label-header-left" onClick={this.hidePanel.bind(this)}>{partnerList[this.props.configuration.campaign]}</label>
+                <div className={this.state.panelVisible
+                    ? ""
+                    : "hidePanel"}>
+                    <div className="configuration-container">
+                        <div className="configuration-scroll">
+                            {this.props.configuration.configurations.map(m => <Configuration details={m.toString()} status={m.status}/>)}
+                        </div>
                     </div>
                 </div>
-                <div className="configuration-container">
-                    <label className="label-header-left">Configurations</label>
-                    <div className="configuration-scroll">
-                        <Configuration/>
-                        <Configuration/>
-                        <Configuration/>
-                        <Configuration/>
-                        <Configuration/>
-                        <Configuration/>
-                    </div>
-                </div>
-                <input type="button" value="Save Configuration" className="save-btn"/>
             </div>
         );
     }
+}
+
+Campaign.PropTypes = {
+    configuration: React.PropTypes.object
 }
 
 module.exports = Campaign;
