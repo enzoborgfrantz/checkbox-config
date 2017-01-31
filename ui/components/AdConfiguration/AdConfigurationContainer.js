@@ -7,7 +7,7 @@ class AdConfigurationContainer extends Component {
     render() {
         return (
             <div className="adConfigContainer">
-                <label className="domain-label">Domain: {this.props.selectedDomains}</label>
+                <label className="domain-label">Domain: {this.props.selectedDomain}</label>
                 <input type="button" value="Add New Configuration" className="addConfigButton"/>
                 <div className="campaign-container">
                   {this.props.configurations.map(m => <Campaign key={m.id} configuration={m}/>)}
@@ -18,7 +18,7 @@ class AdConfigurationContainer extends Component {
 }
 
 AdConfigurationContainer.propTypes = {
-    selectedDomains: React.PropTypes.string,
+    selectedDomain: React.PropTypes.string,
     configurations: React.PropTypes.array
 }
 

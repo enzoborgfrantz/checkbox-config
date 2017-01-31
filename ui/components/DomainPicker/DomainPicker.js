@@ -10,7 +10,8 @@ class DomainPicker extends Component {
             <div className="domainPicker">
                 <label className="label-header-left">Domains</label>
                 <ul id="flag">
-                    {domainList.map(domain => <li key={domain.domain} onClick={this.props.onClick.bind(this)} id={domain.domain} className={domain.selected
+                    {domainList.map(domain => <li key={domain.domain} onClick={this.props.onClick.bind(this)} id={domain.domain} className={
+                      domain.domain == this.props.selectedDomain
                         ? "flag flag-selected"
                         : "flag"}>
                         {domain.domain}
@@ -19,6 +20,10 @@ class DomainPicker extends Component {
             </div>
         );
     }
+}
+
+DomainPicker.Proptypes = {
+    selectedDomain: React.PropTypes.string
 }
 
 module.exports = DomainPicker;

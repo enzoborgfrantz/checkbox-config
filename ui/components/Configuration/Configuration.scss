@@ -13,9 +13,8 @@
     box-shadow: $shadow;
     label {
         vertical-align: middle;
-        color: rgba(0, 0, 0, 0.6);
+        color: rgba(0, 0, 0, 0.5);
         padding-left: 10px;
-        //font-weight:lighter;
         font-size:16px;
 
     }
@@ -31,15 +30,20 @@
         float:right;
         margin-right: 10px;
     }
-    &:hover{
-      opacity:1;
-    }
+    transition: all .1s linear;
 
     &.enabled{
       background-color: $light-green;
+
+      &:hover{
+        background-color: $green;
+      }
     }
 
     &.disabled{
       background-color: $light-red;
+      &:hover{
+        background-color: $red;
+      }
     }
 }

@@ -39,6 +39,16 @@ body{
 	height:6vh;
 	font-size:18px;
 	text-transform: capitalize;
+	transition: background-color .35s linear;
+	&:hover{
+		background-color: #cbcbcb;
+		/*
+		transition: background-color 0.15s ease-in;
+		&:hover {
+				background-color: #cbcbcb;
+				opacity: .75;
+		}*/
+	}
 }
 
 .label-header-left{
