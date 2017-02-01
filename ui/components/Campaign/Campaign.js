@@ -29,7 +29,9 @@ class Campaign extends Component {
                     : "hidePanel"}>
                     <div className="configuration-container">
                         <div className="configuration-scroll">
-                            {this.props.configuration.configurations.map(m => <Configuration details={m.toString()} status={m.status}/>)}
+                            {this.props.configuration.deviceConfigurations.map(m => <Configuration details={m.toString()} status={m.status}/>)}
+                            {this.props.configuration.locationConfigurations.map(m => <Configuration details={m.toString()} status={m.status}/>)}
+                            {this.props.configuration.browserConfigurations.map(m => <Configuration details={m.toString()} status={m.status}/>)}
                         </div>
                     </div>
                 </div>
