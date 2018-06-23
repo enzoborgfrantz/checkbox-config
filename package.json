@@ -6,7 +6,9 @@
   "scripts": {
     "test": "test",
     "start": "webpack-dev-server  --hot --inline",
-    "scss-compile": "node-sass -rw assets/styles/ -o assets/styles"
+    "scss-compile": "node-sass -rw assets/styles/ -o assets/styles",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -40,11 +42,13 @@
     "sass-loader": "^4.1.1",
     "scss-compile": "^0.1.7",
     "style-loader": "^0.13.1",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^1.16.2",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
-  }
+  },
+  "snyk": true
 }
