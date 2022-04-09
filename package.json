@@ -37,7 +37,7 @@
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
     "react-router": "^3.0.1",
-    "sass-loader": "^4.1.1",
+    "sass-loader": "^6.0.7",
     "scss-compile": "^0.1.7",
     "style-loader": "^0.13.1",
     "webpack-dev-server": "^1.16.2"
